@@ -3,12 +3,10 @@
 ## Car Register
 **Functional Requirements**
 - It should be able to register a car.
-- It should be able to list all categories.
 
 **Business Rules**
 - Shouldn't be able to register a car with an existent license plate.
-- Shouldn't be able to modify a car's license plate.
-- The car should be available after being registered.
+- The car should be available by default after being registered.
 - Only admin users should be able to register a car.
 
 ## Car List
