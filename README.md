@@ -22,7 +22,6 @@
 **Functional Requirements**
 - It should be able to register a car specification.
 - It should be able to list all specifications.
-- It should be able to list all cars.
 
 **Business Rules**
 - Shouldn't be able to register a specification for a not existent car.
@@ -32,7 +31,6 @@
 ## Car Images Register
 **Functional Requirements**
 - It should be able to register the car's image.
-- It should be able to list all cars.
 
 **Non-Functional Requirements**
 - Use multer to upload the files.
