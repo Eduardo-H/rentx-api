@@ -47,6 +47,7 @@
 - The minimun duration of a rental should be 24 hours.
 - Shouldn't be able to register a new rental for an user that already has an open rental.
 - Shouldn't be able to register a new rental for a car that already has an open rental.
+- The car should not be available after being rented.
 
 ## Car Return
 **Functional Requirements**
