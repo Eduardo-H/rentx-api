@@ -54,9 +54,7 @@ class CreateRentalUseCase {
     );
 
     if (compare < minimumRentalDurationInHours) {
-      throw new AppError(
-        `The rental has a duration bellow the minimum of ${minimumRentalDurationInHours} hours`
-      );
+      throw new AppError("The rental has a duration bellow the minimum hours");
     }
 
     const rental = await this.rentalsRepository.create({

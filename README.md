@@ -60,3 +60,10 @@
 - After the car return, the total price should be calculated.
 - If the car is returned after the expected return date, there should be a fee.
 - If there is a fee, it should be added to the total price of the rent.
+
+## User's Rentals List
+**Functional Requirements**
+- It shoulb be able to show the list of the user's rentals.
+
+**Business Rules**
+- Should only list the rentals if the user is logged in.
