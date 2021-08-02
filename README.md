@@ -47,3 +47,15 @@
 - The minimun duration of a rental should be 24 hours.
 - Shouldn't be able to register a new rental for an user that already has an open rental.
 - Shouldn't be able to register a new rental for a car that already has an open rental.
+
+## Car Return
+**Functional Requirements**
+- It shoulb be able to return a car
+
+**Business Rules**
+- If the car is returned within 24 hours, there should be a fee.
+- After the car return, the car should be available to rent.
+- After the car return, the user should be able to rent another car.
+- After the car return, the total price should be calculated.
+- If the car is returned after the expected return date, there should be a fee.
+- If there is a fee, it should be added to the total price of the rent.
