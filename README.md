@@ -51,7 +51,7 @@
 
 ## Car Return
 **Functional Requirements**
-- It shoulb be able to return a car
+- It should be able to return a car
 
 **Business Rules**
 - If the car is returned within 24 hours, there should be a fee.
@@ -63,7 +63,17 @@
 
 ## User's Rentals List
 **Functional Requirements**
-- It shoulb be able to show the list of the user's rentals.
+- It should be able to show the list of the user's rentals.
 
 **Business Rules**
 - Should only list the rentals if the user is logged in.
+
+## Reset Password
+**Functional Requirements**
+- It should be able to reset the user's password.
+- It should be able to send an e-mail to the user explaning the steps to be followed to reset the password.
+- It should be able to set a new password
+
+**Business Rules**
+- The user needs to inform the new password.
+- The link to reset the password should expire in 3 hours.
