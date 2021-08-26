@@ -16,12 +16,7 @@ const createUserController = new CreateUserController();
 const updateUserAvatarController = new UpdateUserAvatarController();
 const profileUserController = new ProfileUserController();
 
-usersRoutes.post(
-  "/",
-  ensureAuthenticated,
-  ensureAdmin,
-  createUserController.handle
-);
+usersRoutes.post("/", createUserController.handle);
 
 usersRoutes.patch(
   "/avatar",
